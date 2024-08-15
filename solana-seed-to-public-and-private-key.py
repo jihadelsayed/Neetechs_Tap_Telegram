@@ -3,6 +3,7 @@ from solders.keypair import Keypair
 from solders.pubkey import Pubkey
 import json
 
+
 # Function to get the public key from a Keypair
 def get_public_key_from_keypair():
     keypair = Keypair()
